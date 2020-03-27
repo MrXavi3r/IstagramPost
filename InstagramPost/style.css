@@ -1,0 +1,69 @@
+body {
+    background: black;
+}
+
+.main {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 600px;
+    margin: auto;
+}
+
+.header {
+    height: 60px;
+    position: relative;
+}
+
+.fa-html5 {
+    height: 100%;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    font-size: 30px;
+}
+
+.fa-ellipsis-v {
+    font-size: 30px;
+    margin-right: 15px;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+
+.image {
+    width: 450px;
+    height: 330px;
+}
+
+.content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h3,
+h5 {
+    position: absolute;
+    margin: 0 0 0 40px;
+    top: 15px;
+}
+
+h5 {
+    position: absolute;
+    top: 35px;
+}
+
+.icons {
+    font-size: 30px;
+    margin: 15px 20px 0px 10px;
+}
+
+.bookmark {
+    float: right;
+}
+
+.like-bar {
+    height: 18px;
+    margin: 10px 10px 15px 10px;
+}
